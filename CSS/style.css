@@ -5,7 +5,6 @@ body {
 }
 
 #header {
-    width:100%;
     background-color: none;
     min-height: 80px;
 }
@@ -13,28 +12,26 @@ body {
 #header > h1 {
     margin:0;
     text-align: center;
-/*    font-family:'lato', sans-serif;*/
+    font-family:'lato', sans-serif;
     position: relative;
-    transform: translateY(50%);
+    transform:translateY(50%);
 }
 
 #nav{
-    width:100%;
     background-color: #005EFF;
     min-height: 80px;
-/*    font-family:'lato', sans-serif;*/
+    font-family:'lato', sans-serif;
     height: auto;
 }
 
 #nav > ul {
     text-align: center;
-    padding: 0;
-    margin: 0;
-    transform: translateY(50%);  
+    padding: 15px 0 15px 0;
+    margin: 0;  
 }
 
 #nav > ul > button {
-    min-width: 120px;
+    min-width: 178px;
     color: #fff;
     background-color: #FF7F00;
     border: none;
@@ -46,23 +43,34 @@ body {
     background-color: #C27800;
 }
 
+/*
 .menu {
     display: flex;
     background-color: yellow;
     justify-content: space-around;
     list-style-type: none;
     margin:0;
+    position: relative;
+    transform:translateY(100%);
+    font-family:'lato', sans-serif;
 }
+*/
 
+/*
 #middle-wrapper-width {
     display: flex;
-/*    font-family:'lato', sans-serif;*/
+    font-family:'lato', sans-serif;
     max-width: 960;
     margin: 0 auto;
 }
 
 #middle-wrapper {
     
+}
+*/
+
+#main-content-wrapper {
+    background-color: #fff;
 }
 
 .side-by-side {
@@ -71,17 +79,18 @@ body {
 
 #main-content-wrapper .image-content {
     text-align: center;
-    width:50%;
+    margin:0 auto;
     margin-top: 50px;
 }
 
 .image-content > img {
     max-width: 200px;
     border-radius: 50%;
+    border: 4px #005EFF solid;
 }
 
 .image-content > h4 {
-/*    font-family:'lato', sans-serif;*/
+    font-family:'lato', sans-serif;
     font-weight: 300;
     color: #005EFF;
 }
@@ -120,8 +129,8 @@ body {
 
 #aside-content-wrapper {
     background-color: #fff;
-    width:35%;
-/*    font-family:'lato', sans-serif;*/
+    font-family:'lato', sans-serif;
+    margin-top: 50px;
 }
 
 #aside-right {
@@ -173,7 +182,7 @@ body {
 footer {
     background-color: #fff;
     text-align: center;
-/*    font-family:'lato', sans-serif;*/
+    font-family:'lato', sans-serif;
     min-height: 100px;
 }
 
