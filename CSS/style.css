@@ -37,6 +37,7 @@ body {
     border: none;
     padding: 15px 32px;
     transition: background-color .25s;
+    border-bottom: 2px solid #005EFF; 
 }
 
 #nav > ul > button:hover {
@@ -74,7 +75,7 @@ body {
 }
 
 .side-by-side {
-    display: flex;
+
 }
 
 #main-content-wrapper .image-content {
@@ -104,8 +105,7 @@ body {
 }
 
 #main-content-wrapper article {
-    width:50%;
-    margin-top: 100px;
+
 }
 
 #main-content-wrapper article h2 {
@@ -169,6 +169,7 @@ body {
     background-image: url(img/bg.jpg);
     border-top:5px #C27800 solid;
     border-bottom: 5px #005EFF solid;
+    text-align: center;
 }
 
 #favorite-sites ul {
@@ -191,7 +192,7 @@ footer > h1 {
     transform: translate(50%);
 }
 
-#favorite-sites > ul > li > img {
-    max-width: 200px;
-    max-height: 200px;
+.max-width {
+    margin:0 auto;
+    max-width: 960px;
 }
